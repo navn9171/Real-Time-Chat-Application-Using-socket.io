@@ -1,0 +1,17 @@
+- create NPM project
+
+- create index, css, js files
+
+- install dependencies(express, nodemon)
+
+- create a express server
+
+- front-end part
+
+- install socket-io, setup socket-io in server.js and client in client.js
+
+- client send message logic in client.js
+
+- receive message on a server and broadcast to all clients
+
+- receive message on client and display it. scrollToBottom etc...

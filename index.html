@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time Chat App</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section class="chat_section">
+        <div class="brand">
+            <img height="40px" src="/wassup.png" alt="">
+            <h1>CHAT<span style="color: rgb(255, 0, 0);">ingo</span></h1>
+        </div>
+        <div class="message_area">
+            <!-- <div class="message incoming">
+                 <h4>Navneet</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, id!</p> 
+            </div>
+            <div class="message outgoing">
+                 <h4>Navneet</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, id!</p> 
+            </div> -->
+        </div>
+        <div>
+            <textarea name="textarea" id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+        </div>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>
